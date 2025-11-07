@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: 'Outfit', sans-serif;
+}
+body{   
+    height: 100vh;
+}
+nav.menu-lateral{
+    width: 300px;
+    height: 100%;
+    background-color: #202020;
+    padding: 40px 0px 40px 1%;
+}
+.botao-de-expandir{
+    width: 100%;
+    padding-left: 10px;
+}
+.botao-de-expandir > i {
+    color: #ffff;
+    font-size: 24px;
+    cursor: pointer;
+}
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+ul li.item-menu a{
+    color: #fff;
+}
